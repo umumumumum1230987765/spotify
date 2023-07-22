@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spotify-Favourite Music</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav>
+        <ul>
+            <li class="brand"><img src="logo.png" alt="spotify">Spotify</li>
+            <li>Home</li>
+            <li>About</li>
+        </ul>
+    </nav>
+    <div class="container">
+        <div class="songList">
+        <h1>Best Of 2023</h1>
+        <div class="SongItemContainer">
+            <div class="SongItem">
+               <img alt="1" >
+               <span class="SongName">Let it Go</span>
+               <span class ="songListPlay"><span class="timestamp">05:04 <i id="0" class="far SongItemPlay fa-solid fa-play"></i></span></span>
+            </div>
+            <div class="SongItem">
+                <img alt="1" >
+                 <span class="SongName"> Let it Go</span>
+                <span class ="songListPlay"><span class="timestamp">05:04 <i id="1" class="far SongItemPlay fa-solid fa-play"></i></span></span>
+             </div>
+             <div class="SongItem">
+                <img alt="1" >
+                <span class="SongName"> Let it Go</span>
+                <span class ="songListPlay"><span class="timestamp">05:04 <i id="2" class="far SongItemPlay fa-solid fa-play"></i></span></span>
+             </div>
+             <div class="SongItem">
+                <img alt="1" >
+                <span class="SongName"> Let it Go</span>
+                <span class ="songListPlay"><span class="timestamp">05:04 <i id="3" class="far SongItemPlay fa-solid fa-play"></i></span></span>
+             </div>
+             <div class="SongItem">
+                <img alt="1" >
+                <span class="SongName"> Let it Go</span>
+                <span class ="songListPlay"><span class="timestamp">05:04 <i id="4" class="far SongItemPlay fa-solid fa-play"></i></span></span>
+             </div>
+        </div>
+    </div>
+        <div class="SongList"></div> 
+        <div class="SongBanner"></div>
+    </div>
+    <div class="bottom">
+        <input type="range" name ="range" id="myProgressBar" min="0" value="0" max="100">
+        <div class="icons">
+            <!--fontawesome icons-->
+            <i class="far fa-1.5x fa-solid fa-backward" id="previous"></i>
+            <i class="far fa-1.5x fa-solid fa-play " id="masterPlay"></i>
+            <i class="far fa-1.5x fa-solid fa-forward" id="next"></i>
+        </div>
+        <div class="SongInfo">
+            <img src="playing.gif" width="50px"alt ="" id="gif"><span id="masterSongName">Let it Go</span>
+        </div>
+    </div>
+    <script src="https://kit.fontawesome.com/febeaf1fdc.js" crossorigin="anonymous"></script>
+    <script src = "script.js"></script>
+</body>
+</html>

@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Mukta:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Mukta:wght@300&family=Playfair+Display:wght@500&display=swap');
+
+body{
+    background-color: aliceblue;
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+nav{
+font-family: 'mukta',sans-serif;
+}
+nav ul{
+    display: flex ;
+    align-items: center;
+    list-style: none;
+    height: 65px;
+    background-color: black;
+    color: beige;
+}
+nav ul li{
+    padding: 0 12px;
+}
+.brand img{
+    width: 50px;
+    padding: 0 8px;
+}
+.brand{
+    display: flex;
+    align-items: center;
+    font-weight: bolder;
+    font-size: 1.3rem;
+}
+.container{
+    min-height: 60vh;
+    background-color:black;
+    color:white;
+    font-family: 'Playfair Display', serif;
+    display: flex;
+    width: 70%;
+    border-radius: 12px;
+    padding: 34px;
+    margin: 23px auto;
+    background-image: url('vg.jpg');
+}
+.bottom{
+    position: sticky;
+    height: 100px;
+    background-color: black;
+    color: antiquewhite;
+    bottom:0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    
+}
+.icons{
+    margin-top: 20px;
+}
+.icons i{
+    cursor: pointer;
+}
+#myProgressBar{
+    width: 80vw;
+    cursor: pointer;
+   
+}
+.SongItemContainer{
+    margin-top: 75px;
+}
+.SongItem{
+       height: 50px;
+       display: flex;
+       background-color: white;
+       width: 150%;
+       color: black;
+       margin: 12px 0;
+       justify-content: space-between;
+       align-items: center;
+       border-radius: 25px;
+}
+.SongItem img{
+width: 40px;
+margin:0 30px;
+border-radius: 35px;
+}
+.timestamp{
+    margin: 0 25px;
+  
+}
+
+.timestamp i{
+    cursor: pointer;
+}
+.SongInfo{
+    position: absolute;
+    left: 10vw;
+    font-family: Arial, Helvetica, sans-serif ;
+}
+.SongInfo img{
+    opacity: 0;
+    transition:opacity 0.5s ease-in;
+}
